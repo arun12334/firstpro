@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+
+body {
+  margin: 0 !important;
+  padding: 0;
+  font-family:'Nunito Sans', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.button_list {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+.pagination {
+  margin-bottom: 5px !important;
+}
+.spreadSheetContainer {
+  position: relative;
+}
+.primary{
+  color: #0078FF;
+  background-color: #0078FF;
+  border: #0078FF;
+}
+.action-button{
+  margin-left: 10px;  
+}
+.header {
+  justify-content: space-between;
+
+}
+.inner{
+  padding: 0 70px;
+}
+img.ctrl-wi {
+  width: 80px;
+  height: 100%;
+}
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.img-wrapper img {
+  width: 95%;
+  height: 100%;
+}
+.align-center {
+  align-items: center;
+}
+.lg-c {
+  padding: 40px;
+  border-radius: 20px !important;
+  border: 0 !important;
+  margin: auto;
+  width: 40%;
+  background: linear-gradient(180deg, #EBF5FF, #F8F8F8);
+}
+.lg-c form h3 {
+  font-size: 28px;
+  color: #33475B;
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.lg-c form h6 {
+  font-size: 16px;
+  color: #33475B;
+  text-align: center;
+  margin-bottom: 30px;
+  opacity: 70%;
+  font-weight: 400;
+}
+label {
+  color: #5c666f;
+  margin-bottom: 5px;
+}
+input.form-control{
+  box-shadow: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 0;
+  font-size: 14px;
+  outline: 0;
+  height: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+}
+.custom-control.custom-checkbox {
+  display: flex;
+}
+.custom-control.custom-checkbox label {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 0;
+}
+a.btn.btn-primary {
+  background: #0078FF;
+font-size: 14px;
+  box-shadow: none;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.bg-log {
+  height: 100vh;
+  background: rgb(255, 255, 255) !important;
+}
+
+/* Navbar css starts here */
+.fo-flx{
+  display: flex;
+}
+a.navbar-brand{
+    margin: 0;
+}
+.dropdown-toggle::after{
+    content: none !important;
+}
+
+
+a.nav-link {
+  font-size: 16px;
+  font-weight: 600;
+  color: #757575;
+  margin-right: 20px;
+  padding: 10px 15px !important;
+}
+ul.nav.navbar-nav.navbar-right a.nav-link.dropdown-toggle {
+    margin-right: 0;
+    padding: 0;
+    margin-left: 15px;
+}
+.nav-right-content p {
+    margin-bottom: 0px;
+}
+a.nav-link:hover {
+    background-color: #0078FF;
+    color: #fff;
+    border-radius: 5px;
+}
+ul.nav.navbar-nav.navbar-right a.nav-link.dropdown-toggle:hover{
+    border: none;
+}
+.remove-margin{
+    margin: 0 !important;
+}
+.remove-padding{
+    padding: 0 !important;
+}
+
+.bo-bottom{
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.img-wr {
+  background: #f8f8f8;
+  height: 40px;
+  width: 45px;
+  cursor: pointer;
+  margin-left: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.primary-ic{
+  color: #0078FF;
+}
+.container-fluid {
+  padding: 0 70px !important;
+}
+nav.navbar.navbar-expand-lg {
+  padding: 10px 0 !important;
+}
+.header-img-wrp {
+  height: 40px;
+  width: 45px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.header-img-wrp img{
+  width: 100%;
+  height: 100%;
+}
+.dd h6 {
+  color: #33475B !important;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.dd p {
+  margin-top: 2px;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Inner pages css starts here////////////////////////////////////////////////////////////////////// */
+
+.space-between{
+  justify-content: space-between;
+}
+h4.page-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+li.breadcrumb-item a {
+  font-size: 14px;
+  color: #33475B;
+}
+.mr1{
+  margin-right: 10px;
+}
+button.btn.btn-secondary{
+  background-color: #C1D2E2;
+  color: #33475B;
+  border: 0;
+  outline: none;
+}
+button.btn {
+  padding: 5px 20px;
+}
+.css-11mde6h-MuiPaper-root {
+  box-shadow: none !important;
+  background: none !important;
+}
+.card{
+  border: 0;
+  background-color: #5c666f;
+}
+.container-fluid {
+  background: linear-gradient(180deg, #EBF5FF, #F8F8F8)!important; 
+  min-height: 100vh;
+}
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.tss-tlx3x1-MUIDataTableToolbar-root.css-hyum1k-MuiToolbar-root {
+  display: none;
+}
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.MuiTablePagination-toolbar.tss-1dccma1-MUIDataTablePagination-toolbar.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar{
+  align-items: center !important;
+}
+.fo-icon {
+  padding: 5px 10px !IMPORTANT;
+}
+.bg-sl-gr {
+  background: #627F9C !important;
+}
+ol.breadcrumb {
+  margin: 0;
+}
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  margin-top: 10px;
+  border-radius: 10px !important;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px !important;
+}
+li.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters {
+  padding: 10px 20px;
+}
+li.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters a {
+  font-size: 14px;
+  color: #757575;
+  text-decoration: none;
+}
+.ic-custom {
+  padding: 5px 10px !important;
+  background: white;
+}
+.btn-light {
+  border: 1px solid #ddd !important;
+}
+.breadcrumb-item.active{
+  color: #0078FF !important;
+}
+.card {
+  padding: 30px;
+  border-radius: 25px !important;
+  border: 0 !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.inner-header {
+  padding: 20px 0px;
+}
+/* Inner pages css ends here////////////////////////////////////////////////////////////////////// */
+
+/* Table css starts here //////////////////////////////////////////////////////////////////////////////////*/
+thead tr th button {
+  padding: 0 !important;
+}
+table thead tr th {
+  background: #627F9C !important;
+  color: #fff !important;
+}
+.tss-bd2lw8-MUIDataTableHeadCell-sortActive {
+  color: rgb(255 255 255 / 87%) !important;
+}
+.css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active .MuiTableSortLabel-icon{
+  color: rgb(255 255 255 / 87%) !important;
+}
+tbody tr:nth-child(even) {
+  background: #f6f6f6;
+}
+.card tbody tr td {
+  border: 0 !important;
+}
+.MuiTablePagination-root p {
+  margin-bottom: 0;
+}
+.css-nfmglb-MuiTableCell-root {
+  padding: 0 !important;
+  border: 0 !important;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  padding: 0;
+}
+div#offcanvasRight-sp-w {
+  width: 950px;
+  padding: 20px;
+}
+.offcanvas-body{
+  padding: 0 !important;
+}
+.offcanvas-header {
+  padding: 0 !important;
+  margin-bottom: 15px;
+
+}
+
+/* Table css ends here/////////////////////////////////////////////////////////// */
+
+/* checklist css/////////////////////////////////////////////////////////////////////////////////// */
+
+.checklist {
+  margin-bottom: 30px;
+}
+.checklist h5 {
+  font-size: 15px;
+  color: #707070;
+  margin-bottom: 0;
+}
+.Ck-inp .MuiInputBase-root.MuiOutlinedInput-root {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.Ck-inp .ic-custom {
+  height: 40px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-top: -3px;
+}
+.pagination .page-link {
+  font-size: 13px;
+  padding: 8px 20px;
+  line-height: 20px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+    background-color: #FFFFFF !important;
+    color: #555 !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: #555555 !important;
+  }
+
+.MuiBox-root.css-15yhumr {
+  border-radius: 5px;
+  border: 0;
+  box-shadow: none;
+}
+a#demo-simple-select-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #757575;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.MuiGrid-root.MuiGrid-grid-xs-6.css-1jssz31-MuiGrid-root {
+  padding: 10px;
+}
+.MuiGrid-root.MuiGrid-container.css-11lq3yg-MuiGrid-root:nth-child(even) {
+  background: #f6f6f6;
+  display: block;
+}

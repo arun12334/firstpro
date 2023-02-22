@@ -1,0 +1,31 @@
+@import url("https://cdn.syncfusion.com/ej2/bootstrap5.css");
+
+.SelectedRow {
+    background-color: #007bff !important;
+    color: white;
+}
+
+.SelectedRow:hover {
+    background-color: #007bff !important;
+    color: white;
+}
+
+.SelectedRows {
+    background-color: #007bff !important;
+    color: white;
+}
+
+.SelectedRows:hover {
+    background-color: #007bff !important;
+    color: white;
+}
+
+.buttonDisable {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+}
+
+#dashboard {
+    margin-left: 75px;
+    width: 100%;
+}

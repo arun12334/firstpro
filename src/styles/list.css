@@ -1,0 +1,15 @@
+#upload_button{
+    display: none;
+}
+
+.upload_button {
+    padding: 2px 13px;
+    background: #ccc;
+    width: auto;
+    display: inline-block;
+    border: 1px solid #eee;
+    border-radius: 13px;
+}
+.Excel-table .MuiButton-Primary {
+    padding: 0px !important;
+}
